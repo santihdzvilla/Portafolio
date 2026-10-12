@@ -1,0 +1,6 @@
+order_id,check_fragile_handling,check_appointment,validation_flag
+DEMO-001,OK,OK,OK
+DEMO-002,OK,Incorrect,Incorrect
+DEMO-003,OK,OK,OK
+DEMO-004,OK,OK,OK
+DEMO-005,OK,OK,OK
