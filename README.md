@@ -52,3 +52,8 @@ Edit the `projects` array in `script.js`. Each project includes an `academic` or
 
 ## Design direction (v1.1)
 Hybrid corporate/minimalist + subtle technical visual language. The portrait is a crop of the original user-supplied photo, not an AI-generated replacement.
+
+
+## Version 2 — deep case studies
+
+Each of the 12 project cards links to `case-study.html?id=<id>&lang=en|es`, with documentary scope, methodology, evidence, limitations, and public GitHub implementation plan. Content lives in `case-studies-data.js`. See `PROJECT_SOURCES.md` for the private source register. No original source reports or employer datasets are bundled.
