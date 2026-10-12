@@ -52,3 +52,7 @@ Edit the `projects` array in `script.js`. Each project includes an `academic` or
 
 ## Design direction (v1.1)
 Hybrid corporate/minimalist + subtle technical visual language. The portrait is a crop of the original user-supplied photo, not an AI-generated replacement.
+
+## v2 — Expanded case studies
+
+This update adds 13 illustrated case studies, 11 original analytical graphics, bilingual deep-dive modals, CENEVAL EGEL recognition, Tecnológico de Monterrey academic recognition, Nebrija exchange, Spanish/English/French language information, and Mandarin currently in progress. It also adds a separate RPA savings case with clearly qualified €13,452/year CV-reported figure. Source and privacy notes are in `CASE_STUDY_SOURCES.md`.
