@@ -1,4 +1,4 @@
-# Santiago Hernández Villa — Portfolio v2.6
+# Santiago Hernández Villa — Portfolio v2.7
 
 Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
@@ -42,3 +42,7 @@ Use the topbar Day/Night button beside the language switch. Preference is stored
 ## CV downloads
 
 Supplied EN/ES PDFs are included unchanged in `assets/cv/`. Hero and contact downloads follow the selected language. Original PDFs include owner-provided professional contact details.
+
+## Clear demo navigation
+
+Three browser forms in `#demo-lab` let visitors try fictional weight, compatibility and required-data rules directly. Code ZIP downloads include Python implementation and README. Planned cases remain explanatory. Both CV language downloads are always visible; independent of UI language.

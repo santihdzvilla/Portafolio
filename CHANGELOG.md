@@ -28,3 +28,7 @@ Added bilingual topbar theme control, persistent preference, and theme support o
 ## v2.6 — Recruiter-focused presentation
 
 Added exact supplied EN/ES CV PDFs and language-dependent hero/contact downloads. Prioritized quality, finance and automation case cards. Added evidence-based career scope explanations without inventing per-client results. Linked implemented dashboard examples from finance/automation cases, distinct from planned full workflow releases. Static and simulated interaction checks passed; browser visual QA unavailable. GitHub publication pending profile/repository URL.
+
+## v2.7
+
+Added three in-browser control examples with editable inputs and actual computed results; distinguished Try demo / Code download / Case summary. Added Python ZIP downloads and full-case links to forms. Both CV language options now visible simultaneously in hero and contact.
