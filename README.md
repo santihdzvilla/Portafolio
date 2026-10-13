@@ -1,58 +1,32 @@
-# Santiago Hernández Villa — Portfolio Website
+# Santiago Hernández Villa — Portfolio v2.1
 
-Responsive bilingual (EN/ES) static portfolio for **Business Intelligence, Data Analytics, Mathematical Optimization and Process Improvement**.
+Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
-## Run locally
+## Run / Ejecutar
 
-Open `index.html` in a browser, or serve it from this directory:
+Open `index.html`, or run `python -m http.server 8000` from this folder.
 
-```bash
-python -m http.server 8000
-```
+## GitHub Pages
 
-Visit `http://localhost:8000`. No build step or dependencies are required. Google Fonts are optional; the site has system font fallbacks.
+Upload this folder’s contents to a repository root. Settings → Pages → Deploy from a branch → main → root. GitHub profile URL has not been supplied; none is fabricated. Publication remains pending owner review.
 
-## Deploy to GitHub Pages
+## Content
 
-1. Create a new repository (e.g. `santiago-portfolio`).
-2. Upload the contents of this folder to the repository root.
-3. In **Settings → Pages**, select **Deploy from a branch**, `main`, `/ (root)`.
-4. Wait for GitHub Pages to publish and open the URL shown in Pages settings.
+- `cases.json`: editable bilingual case catalog with sources, tools, attribution, evidence status, images and implementation folders.
+- `python tools/build_catalog.py`: regenerates the browser adapter `case-studies.js` after catalog edits.
+- `script.js`: navigation, homepage copy, skills, filters and modal rendering.
+- `case-study.html?id=retail&lang=es`: standalone, shareable case pages using the same catalog as dialogs.
+- `assets/`: authentic portrait and original reconstructed technical graphics. No raw reports included.
+- `demo-data-quality/`, `demo-weight-reconciliation/`, `demo-compatibility/`: executable, standard-library Python demos with fictional inputs, output CSVs and tests.
 
-## Site structure
+## Demo validation
 
-- `index.html` — page sections and semantic markup.
-- `styles.css` — responsive design.
-- `script.js` — bilingual copy, skill taxonomy, project metadata, filters and case-study dialog.
-- `assets/` — owner-supplied original photo and an authentic cropped web version (no generative edits).
-- `demo-data-quality/` — **real, runnable synthetic-data example** with tests.
-- `CONTENT_REVIEW.md` — editorial checklist and claims requiring confirmation.
+Run from each demo folder: `python -m unittest discover -s tests -v`. Demo-specific README files describe execution. These independent demonstrations do not reproduce company systems. Other implementations remain planned.
 
-## Content and confidentiality
+## Evidence
 
-- Academic projects are described as **team or individual academic work**, not employer production deployments.
-- A reported +51% retail scenario is a **modeled academic result**, not verified deployed commercial uplift.
-- The 23% reduction in operator travel is a **résumé-reported academic project result**.
-- Professional projects are labeled **synthetic demos planned**, except the standalone data-quality sample included here.
-- **No employer source code, client data, tariff tables, internal system screenshots or confidential business rules are included.**
-- Do not upload original partner/company reports without verifying permission to publish.
-- Contact email and LinkedIn are configured from owner-provided information. GitHub URL is not yet supplied.
+Coppel poster displays 94 / 122.5 / 135.8 M. The base-to-final change calculates to 44.5%, while the poster headline says +51%; the discrepancy is explicitly disclosed and the homepage does not use the +51% headline. Lean and other academic figures are reported proposals, not independently verified sustained production impact. RPA savings are a single reported aggregate, without initiative-level allocation. See `PUBLICATION_CHECKLIST.md` and `CHANGELOG.md`.
 
-## Updating projects
+## Español
 
-Edit the `projects` array in `script.js`. Each project includes an `academic` or `professional` category and English/Spanish summaries, methods, evidence and next steps. Never describe a planned demo as implemented until code/tests/screenshots are published.
-
-## Next improvements
-
-- Confirm GitHub profile URL (email and LinkedIn are already configured).
-- Publish self-contained synthetic repositories for the retail optimizer, bike-share routing and downtime statistics.
-- Add tested repo links to case studies.
-- Replace draft case-study copy with individual contributions, public screenshots and measured reproducible results.
-- Add SEO/social cards, favicon, custom domain and analytics only with consent.
-
-## Design direction (v1.1)
-Hybrid corporate/minimalist + subtle technical visual language. The portrait is a crop of the original user-supplied photo, not an AI-generated replacement.
-
-## v2 — Expanded case studies
-
-This update adds 13 illustrated case studies, 11 original analytical graphics, bilingual deep-dive modals, CENEVAL EGEL recognition, Tecnológico de Monterrey academic recognition, Nebrija exchange, Spanish/English/French language information, and Mandarin currently in progress. It also adds a separate RPA savings case with clearly qualified €13,452/year CV-reported figure. Source and privacy notes are in `CASE_STUDY_SOURCES.md`.
+Portafolio estático bilingüe. `cases.json` centraliza contenido y evidencia. Incluye tres demos independientes con datos ficticios y pruebas. Publicación, permisos de marcas, contribuciones individuales y desglose de ahorros pendientes de confirmación. Los originales privados no se incluyen en el ZIP.

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img">
+<rect width="1000" height="700" fill="#0f1d2c"/>
+<text x="50" y="52" fill="#ffffff" font-size="27" font-family="sans-serif">Fictional compatibility catalog</text>
+<text x="50" y="86" fill="#91b6c9" font-size="22" font-family="sans-serif">Catálogo ficticio de compatibilidad</text>
+<rect x="50" y="118" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="157" fill="#64d4c0" font-size="24" font-family="sans-serif">01 · Normalize / Normalizar</text>
+<text x="75" y="194" fill="#ffffff" font-size="21" font-family="sans-serif">Trim and casefold text / Espacios y mayúsculas</text>
+<rect x="50" y="245" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="284" fill="#64d4c0" font-size="24" font-family="sans-serif">02 · Missing / Faltantes</text>
+<text x="75" y="321" fill="#ffffff" font-size="21" font-family="sans-serif">Empty mode or service / Modalidad o servicio vacío</text>
+<rect x="50" y="372" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="411" fill="#64d4c0" font-size="24" font-family="sans-serif">03 · Lookup / Consultar</text>
+<text x="75" y="448" fill="#ffffff" font-size="21" font-family="sans-serif">Unknown pair → Unknown / Par desconocido</text>
+<rect x="50" y="499" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="538" fill="#64d4c0" font-size="24" font-family="sans-serif">04 · Decide / Decidir</text>
+<text x="75" y="575" fill="#ffffff" font-size="21" font-family="sans-serif">Allowed → OK; forbidden → Invalid / Permitido; prohibido</text>
+<text x="50" y="664" fill="#b8cad7" font-size="17" font-family="sans-serif">Synthetic rules; runnable Python implementation / Reglas sintéticas; implementación Python</text>
+</svg>

@@ -1,3 +1,4 @@
+/* Generated from cases.json */
 window.caseStudiesData = {
   "retail": {
     "en": {
@@ -8,13 +9,16 @@ window.caseStudiesData = {
         "Derive a forecast index for individual segments, then optimize space subject to minimum and maximum limits using Python/Gurobi.",
         "Compare baseline, optimization-only and forecast-informed modeled scenarios."
       ],
-      "result": "The academic poster displays scenario values of 94M, 122.5M and 135.8M and labels the opportunity as +51%. These are model outputs, not verified realized revenue.",
+      "result": "The academic poster displays scenario values of 94M, 122.5M and 135.8M and labels the opportunity as +51%. These are model outputs, not verified realized revenue. The displayed values imply a 44.5% increase from 94 to 135.8; the poster’s +51% headline cannot be reconciled with those values and requires clarification.",
       "role": "Team project; the uploaded poster does not isolate each member’s contribution.",
       "caveat": "No public underlying dataset, training notebook or reproducible solver model was provided.",
       "images": [
         "retail-scenarios.png",
         "retail-method.png"
-      ]
+      ],
+      "title": "Retail Space Optimization & Forecasting",
+      "dataset": "Source report summaries; original raw data are not included.",
+      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis."
     },
     "es": {
       "context": "El espacio comercial es limitado. El equipo buscó asignar superficie por segmento considerando rentabilidad esperada y demanda proyectada.",
@@ -24,12 +28,26 @@ window.caseStudiesData = {
         "Calcular un índice de pronóstico por segmento y optimizar espacio con límites mínimos y máximos mediante Python/Gurobi.",
         "Comparar escenarios modelados base, optimización y optimización con pronóstico."
       ],
-      "result": "El póster académico muestra 94M, 122.5M y 135.8M y señala una oportunidad de +51%. Son escenarios modelados, no ingresos realizados verificados.",
+      "result": "El póster académico muestra 94M, 122.5M y 135.8M y señala una oportunidad de +51%. Son escenarios modelados, no ingresos realizados verificados. Los valores mostrados implican un aumento de 44.5% de 94 a 135.8; el titular de +51% del póster no coincide con esos valores y requiere aclaración.",
       "role": "Proyecto en equipo; el póster no delimita la contribución individual de cada integrante.",
       "caveat": "No se adjuntaron datos públicos ni un modelo reproducible del solver.",
       "images": [
         "retail-scenarios.png",
         "retail-method.png"
+      ],
+      "title": "Optimización de espacio comercial y pronósticos",
+      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
+      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis."
+    },
+    "metadata": {
+      "source": "Proyecto Coppel.pdf",
+      "evidence": "academic-report",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Python",
+        "Gurobi",
+        "Forecasting",
+        "Clustering"
       ]
     }
   },
@@ -46,8 +64,12 @@ window.caseStudiesData = {
       "role": "Academic report signed individually; the document does not establish real-world deployment.",
       "caveat": "The report itself notes Euclidean distances do not reflect actual road networks, traffic or vehicle access.",
       "images": [
-        "bikeshare-tradeoff.png"
-      ]
+        "bikeshare-tradeoff.png",
+        "bikeshare-technical.svg"
+      ],
+      "title": "Bike-Sharing Rebalancing Routes",
+      "dataset": "Source report summaries; original raw data are not included.",
+      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis."
     },
     "es": {
       "context": "Redistribuir bicicletas entre estaciones con déficit y superávit, considerando flota y capacidad de camiones.",
@@ -61,7 +83,21 @@ window.caseStudiesData = {
       "role": "Reporte académico individual; no hay evidencia de despliegue real.",
       "caveat": "El propio documento advierte que las distancias euclidianas no consideran calles, tráfico o acceso de vehículos.",
       "images": [
-        "bikeshare-tradeoff.png"
+        "bikeshare-tradeoff.png",
+        "bikeshare-technical.svg"
+      ],
+      "title": "Optimización de rutas para redistribución de bicicletas",
+      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
+      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis."
+    },
+    "metadata": {
+      "source": "A01641407_Etapa 3_MiBici (1).pdf",
+      "evidence": "academic-report",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Heuristics",
+        "Routing",
+        "Optimization"
       ]
     }
   },
@@ -79,8 +115,12 @@ window.caseStudiesData = {
       "caveat": "Avoid presenting proposed capacity improvements as independently audited realized savings.",
       "images": [
         "lean-layout.png",
-        "flex-method.png"
-      ]
+        "flex-method.png",
+        "lean-technical.svg"
+      ],
+      "title": "Lean Layout & Cutting Process Improvement",
+      "dataset": "Source report summaries; original raw data are not included.",
+      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis."
     },
     "es": {
       "context": "Analizar desperdicios, recorridos y cuellos de botella en corte textil para proponer mejoras Lean.",
@@ -95,7 +135,22 @@ window.caseStudiesData = {
       "caveat": "No presentar incrementos propuestos como ahorros realizados y auditados.",
       "images": [
         "lean-layout.png",
-        "flex-method.png"
+        "flex-method.png",
+        "lean-technical.svg"
+      ],
+      "title": "Mejora Lean de layout y proceso de corte",
+      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
+      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis."
+    },
+    "metadata": {
+      "source": "Proyecto Scapinno.pdf",
+      "evidence": "academic-report",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Lean",
+        "VSM",
+        "KPI",
+        "Layout"
       ]
     }
   },
@@ -108,12 +163,16 @@ window.caseStudiesData = {
         "Use Kruskal–Wallis and pairwise Mann–Whitney tests to compare groups.",
         "Prioritize equipment and causes using Pareto and control charts."
       ],
-      "result": "The report documents a structured diagnostic methodology and analysis; the provided summary does not establish a verified numerical reduction in downtime.",
+      "result": "The report describes nonnormal downtime samples, Kruskal–Wallis evidence of group differences, and six Mann–Whitney comparisons with Bonferroni α=0.00833. Silicones were prioritized based on accumulated downtime and frequency. Failure to detect a difference is not proof of equality; no verified reduction after implementation is documented.",
       "role": "Team academic project; do not attribute every figure or test to one member.",
       "caveat": "Public case should use reconstructed plots or permitted anonymized aggregate results.",
       "images": [
-        "flex-method.png"
-      ]
+        "flex-method.png",
+        "downtime-technical.svg"
+      ],
+      "title": "Manufacturing Downtime Root-Cause Analysis",
+      "dataset": "Source report summaries; original raw data are not included.",
+      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis."
     },
     "es": {
       "context": "Comprender patrones de tiempo muerto en un entorno industrial de plásticos y suministro de materiales.",
@@ -123,11 +182,25 @@ window.caseStudiesData = {
         "Comparar grupos con Kruskal–Wallis y pruebas Mann–Whitney.",
         "Priorizar equipos y causas con Pareto y gráficas de control."
       ],
-      "result": "El reporte documenta el diagnóstico y análisis estadístico; no hay sustento aquí para afirmar una reducción porcentual verificada del tiempo muerto.",
+      "result": "El reporte describe muestras no normales, diferencias entre grupos con Kruskal–Wallis y seis comparaciones Mann–Whitney con Bonferroni α=0.00833. Se priorizaron silicones por tiempo muerto acumulado y frecuencia. No detectar una diferencia no prueba igualdad; no se documenta una reducción verificada tras implementar mejoras.",
       "role": "Proyecto académico en equipo; no atribuir todas las pruebas a una sola persona.",
       "caveat": "Usar gráficas reconstruidas o agregados autorizados para publicar.",
       "images": [
-        "flex-method.png"
+        "flex-method.png",
+        "downtime-technical.svg"
+      ],
+      "title": "Análisis de causas raíz de tiempos muertos",
+      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
+      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis."
+    },
+    "metadata": {
+      "source": "Reporte Flex.docx",
+      "evidence": "academic-report",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Statistics",
+        "Lean",
+        "Root cause"
       ]
     }
   },
@@ -144,8 +217,12 @@ window.caseStudiesData = {
       "role": "Group academic assignment; source includes code but does not separate individual contributions.",
       "caveat": "A reproducible public repository should rebuild the model with fictional task data and solver licensing notes.",
       "images": [
-        "gurobi-method.png"
-      ]
+        "gurobi-method.png",
+        "gurobi-technical.svg"
+      ],
+      "title": "Combinatorial Optimization with Gurobi",
+      "dataset": "Source report summaries; original raw data are not included.",
+      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis."
     },
     "es": {
       "context": "Secuenciar ocho tareas en dos máquinas con tiempos de proceso, setup y restricciones operativas.",
@@ -159,7 +236,21 @@ window.caseStudiesData = {
       "role": "Actividad académica grupal; el código no identifica contribuciones individuales.",
       "caveat": "El repositorio público debe reconstruirse con datos ficticios y explicar licencia del solver.",
       "images": [
-        "gurobi-method.png"
+        "gurobi-method.png",
+        "gurobi-technical.svg"
+      ],
+      "title": "Optimización combinatoria con Gurobi",
+      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
+      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis."
+    },
+    "metadata": {
+      "source": "Proyecto Optimizacion python.pdf",
+      "evidence": "academic-report",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Python",
+        "Gurobi",
+        "MILP"
       ]
     }
   },
@@ -177,8 +268,12 @@ window.caseStudiesData = {
       "caveat": "Do not extrapolate financial feasibility without checking model assumptions and formulas.",
       "images": [
         "investment-capacity.png",
-        "bi-method.png"
-      ]
+        "bi-method.png",
+        "investment-technical.svg"
+      ],
+      "title": "Industrial Investment Evaluation",
+      "dataset": "Source report summaries; original raw data are not included.",
+      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis."
     },
     "es": {
       "context": "Evaluar inversión en panadería industrial mediante demanda, capacidad, costos y valor del dinero en el tiempo.",
@@ -193,7 +288,21 @@ window.caseStudiesData = {
       "caveat": "No extrapolar viabilidad sin verificar supuestos y fórmulas.",
       "images": [
         "investment-capacity.png",
-        "bi-method.png"
+        "bi-method.png",
+        "investment-technical.svg"
+      ],
+      "title": "Evaluación de inversión industrial",
+      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
+      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis."
+    },
+    "metadata": {
+      "source": "Reporte Economia.pdf",
+      "evidence": "academic-report",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Excel",
+        "Finance",
+        "Scenarios"
       ]
     }
   },
@@ -212,7 +321,11 @@ window.caseStudiesData = {
       "images": [
         "quality-cardinality.png",
         "bi-method.png"
-      ]
+      ],
+      "implementation": "demo-data-quality",
+      "title": "Data Quality Rules Engine",
+      "dataset": "Fictional CSV records are included with the demo.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Validar un registro maestro frente a múltiples detalles obligatorios sin multiplicar filas.",
@@ -228,6 +341,21 @@ window.caseStudiesData = {
       "images": [
         "quality-cardinality.png",
         "bi-method.png"
+      ],
+      "implementation": "demo-data-quality",
+      "title": "Motor de reglas de calidad de datos",
+      "dataset": "La demo incluye registros CSV ficticios.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "synthetic-demo-tested",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Python",
+        "SQL",
+        "Qlik",
+        "Testing"
       ]
     }
   },
@@ -240,12 +368,17 @@ window.caseStudiesData = {
         "Classify missing inputs before compatibility checks.",
         "Test nulls, unexpected values and pair-order assumptions."
       ],
-      "result": "Proposed synthetic case, not a public production artifact.",
+      "result": "Included demo normalizes text and distinguishes OK, Invalid, Missing and Unknown against a fictional reference catalog; unknown values are not silently accepted.",
       "role": "Privacy-safe professional case reconstruction.",
-      "caveat": "Never publish real service-carrier compatibility matrices.",
+      "caveat": "Runnable Python reconstruction using fictional data and rules; does not reproduce an employer system.",
       "images": [
-        "bi-method.png"
-      ]
+        "bi-method.png",
+        "compatibility-technical.svg"
+      ],
+      "implementation": "demo-compatibility",
+      "title": "Attribute Compatibility Validator",
+      "dataset": "Fictional CSV records are included with the demo.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Validar pares de atributos frente a un catálogo permitido o prohibido.",
@@ -255,11 +388,26 @@ window.caseStudiesData = {
         "Clasificar faltantes antes de comparar pares.",
         "Probar nulos, valores inesperados y orden de atributos."
       ],
-      "result": "Caso sintético propuesto; no es artefacto de producción publicado.",
+      "result": "La demo incluida normaliza texto y distingue OK, Invalid, Missing y Unknown contra un catálogo ficticio; no acepta silenciosamente valores desconocidos.",
       "role": "Reconstrucción segura de experiencia profesional.",
-      "caveat": "No publicar matrices reales de compatibilidad operativa.",
+      "caveat": "Reconstrucción ejecutable en Python con datos y reglas ficticios; no reproduce un sistema del empleador.",
       "images": [
-        "bi-method.png"
+        "bi-method.png",
+        "compatibility-technical.svg"
+      ],
+      "implementation": "demo-compatibility",
+      "title": "Validador de compatibilidad de atributos",
+      "dataset": "La demo incluye registros CSV ficticios.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "synthetic-demo-tested",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "SQL",
+        "Qlik",
+        "Data quality"
       ]
     }
   },
@@ -277,7 +425,10 @@ window.caseStudiesData = {
       "caveat": "Avoid real client SLA commitments, routes and distance thresholds.",
       "images": [
         "bi-method.png"
-      ]
+      ],
+      "title": "Transit-Time Decision Rules",
+      "dataset": "No public dataset or executable implementation yet.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Asignar tiempos objetivo de tránsito por modo, rangos de distancia y excepciones.",
@@ -292,6 +443,19 @@ window.caseStudiesData = {
       "caveat": "No revelar SLA, rutas o umbrales reales de clientes.",
       "images": [
         "bi-method.png"
+      ],
+      "title": "Reglas de decisión para tiempos de tránsito",
+      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "planned-reconstruction",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Qlik",
+        "SQL",
+        "Rule engine"
       ]
     }
   },
@@ -304,13 +468,17 @@ window.caseStudiesData = {
         "Compare rounded integers and expose the difference.",
         "Separate missing master, missing detail and mismatch states."
       ],
-      "result": "A well-defined validation design; no public performance metric claimed.",
+      "result": "Included demo aggregates detail weights before decimal half-up rounding. Tests cover .49/.50/.51, repeated units, missing values and invalid weights. Synthetic output is available as CSV.",
       "role": "Professional validation pattern with synthetic numerical examples.",
-      "caveat": "Negative-weight conventions require a separately documented rule.",
+      "caveat": "Runnable Python reconstruction using fictional data and rules; does not reproduce an employer system.",
       "images": [
         "weight-rounding.png",
         "bi-method.png"
-      ]
+      ],
+      "implementation": "demo-weight-reconciliation",
+      "title": "Weight Reconciliation & Rounding",
+      "dataset": "Fictional CSV records are included with the demo.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Conciliar peso declarado con suma de componentes manejando precisión y registros faltantes.",
@@ -320,12 +488,26 @@ window.caseStudiesData = {
         "Comparar enteros y calcular diferencia.",
         "Distinguir peso faltante, detalle faltante y discrepancia."
       ],
-      "result": "Diseño de validación definido; no se atribuye una métrica pública de desempeño.",
+      "result": "La demo incluida agrega pesos de detalle antes del redondeo decimal half-up. Las pruebas cubren .49/.50/.51, unidades repetidas, faltantes y pesos inválidos. Incluye salida CSV ficticia.",
       "role": "Patrón profesional con ejemplos numéricos ficticios.",
-      "caveat": "Pesos negativos requieren regla específica documentada.",
+      "caveat": "Reconstrucción ejecutable en Python con datos y reglas ficticios; no reproduce un sistema del empleador.",
       "images": [
         "weight-rounding.png",
         "bi-method.png"
+      ],
+      "implementation": "demo-weight-reconciliation",
+      "title": "Conciliación de pesos y redondeo",
+      "dataset": "La demo incluye registros CSV ficticios.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "synthetic-demo-tested",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Python",
+        "Qlik",
+        "Validation"
       ]
     }
   },
@@ -343,7 +525,10 @@ window.caseStudiesData = {
       "caveat": "Do not publish company financial data, pricing or client-specific tariff rules.",
       "images": [
         "bi-method.png"
-      ]
+      ],
+      "title": "Financial Exceptions & KPI Monitoring",
+      "dataset": "No public dataset or executable implementation yet.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Evitar doble conteo financiero al unir tablas con relaciones uno-a-muchos.",
@@ -358,6 +543,20 @@ window.caseStudiesData = {
       "caveat": "No publicar datos financieros, tarifas o reglas internas.",
       "images": [
         "bi-method.png"
+      ],
+      "title": "Monitoreo de excepciones financieras y KPIs",
+      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "planned-reconstruction",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "SQL",
+        "BI",
+        "KPI",
+        "Finance"
       ]
     }
   },
@@ -375,7 +574,10 @@ window.caseStudiesData = {
       "caveat": "Do not publish tenant names, real flows, credentials or company dashboards.",
       "images": [
         "rpa-method.png"
-      ]
+      ],
+      "title": "Automated Alerts & Reporting Workflow",
+      "dataset": "No public dataset or executable implementation yet.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Automatizar monitoreo y reportes para mantener trazabilidad de excepciones.",
@@ -390,6 +592,19 @@ window.caseStudiesData = {
       "caveat": "No publicar tenants, flujos internos, credenciales ni dashboards corporativos.",
       "images": [
         "rpa-method.png"
+      ],
+      "title": "Flujo automatizado de alertas y reportes",
+      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "planned-reconstruction",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "Power Automate",
+        "RPA",
+        "KPI"
       ]
     }
   },
@@ -402,12 +617,15 @@ window.caseStudiesData = {
         "Measure estimated annualized efficiency benefits.",
         "Document controls, ownership and monitoring for operational continuity."
       ],
-      "result": "The English CV reports €13,452 in annual savings from an RPA implementation. This is a résumé-reported figure; source breakdown, time period and independent verification were not provided.",
+      "result": "€13,452 reported total annual savings across RPA initiatives, per CV and owner clarification. No initiative-level allocation or independently audited calculation is available.",
       "role": "Professional experience stated in the CV; individual implementation details require confirmation.",
       "caveat": "Do not imply multiple independently verified RPA projects or disclose confidential workflows.",
       "images": [
         "rpa-method.png"
-      ]
+      ],
+      "title": "RPA Efficiency & Annual Savings",
+      "dataset": "No public dataset or executable implementation yet.",
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
       "context": "Reducir esfuerzo manual recurrente mediante automatización robótica de procesos (RPA).",
@@ -417,11 +635,24 @@ window.caseStudiesData = {
         "Cuantificar beneficios anualizados estimados.",
         "Documentar controles, responsables y monitoreo."
       ],
-      "result": "El CV en inglés reporta €13,452 de ahorro anual por una implementación RPA. Es una cifra declarada en CV, sin desglose ni verificación independiente en los archivos.",
+      "result": "€13,452 de ahorro anual total reportado entre las iniciativas RPA, según CV y aclaración del titular. No existe desglose por iniciativa ni cálculo auditado disponible.",
       "role": "Experiencia profesional declarada; detalles de implementación individual pendientes de confirmar.",
       "caveat": "No insinuar múltiples proyectos auditados ni revelar flujos internos.",
       "images": [
         "rpa-method.png"
+      ],
+      "title": "Automatización RPA y ahorros anuales",
+      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+    },
+    "metadata": {
+      "source": "CV / generic professional problem reconstruction",
+      "evidence": "planned-reconstruction",
+      "publication": "Original source files excluded; brand/claim permissions pending",
+      "tools": [
+        "RPA",
+        "Automation",
+        "Process improvement"
       ]
     }
   }

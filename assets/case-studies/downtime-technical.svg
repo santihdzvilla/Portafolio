@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img">
+<rect width="1000" height="700" fill="#0f1d2c"/>
+<text x="50" y="52" fill="#ffffff" font-size="27" font-family="sans-serif">Statistical decision path</text>
+<text x="50" y="86" fill="#91b6c9" font-size="22" font-family="sans-serif">Ruta de decisión estadística</text>
+<rect x="50" y="118" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="157" fill="#64d4c0" font-size="24" font-family="sans-serif">01 · Check distributions / Revisar distribuciones</text>
+<text x="75" y="194" fill="#ffffff" font-size="21" font-family="sans-serif">Report rejects normality / Reporte rechaza normalidad</text>
+<rect x="50" y="245" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="284" fill="#64d4c0" font-size="24" font-family="sans-serif">02 · Compare groups / Comparar grupos</text>
+<text x="75" y="321" fill="#ffffff" font-size="21" font-family="sans-serif">Kruskal–Wallis, four machine groups / Cuatro grupos</text>
+<rect x="50" y="372" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="411" fill="#64d4c0" font-size="24" font-family="sans-serif">03 · Control multiple comparisons / Comparaciones múltiples</text>
+<text x="75" y="448" fill="#ffffff" font-size="21" font-family="sans-serif">Six pair tests: 0.05 / 6 = 0.00833</text>
+<rect x="50" y="499" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="538" fill="#64d4c0" font-size="24" font-family="sans-serif">04 · Prioritize follow-up / Priorizar seguimiento</text>
+<text x="75" y="575" fill="#ffffff" font-size="21" font-family="sans-serif">Silicones: frequency and downtime / Frecuencia y tiempo muerto</text>
+<text x="50" y="664" fill="#b8cad7" font-size="17" font-family="sans-serif">Reconstructed report method; no raw observations reproduced / Sin observaciones originales</text>
+</svg>

@@ -28,3 +28,8 @@ All charts and diagrams in `assets/case-studies` were newly generated for this p
 ## Before publishing
 
 Verify permissions to mention academic project partners, review individual contributions and source results, confirm professional savings figure, and add GitHub URL only after user provides it.
+
+
+## v2.1 authoritative corrections
+
+The supplied v2 ZIP is the actual continuation base. Use cases.json and PUBLICATION_CHECKLIST.md for current implementation status. Three synthetic Python demos are now runnable; remaining demos are planned. Coppel displayed values imply +44.5%, not +51%. €13,452 is a reported annual aggregate across RPA initiatives, with no per-initiative allocation. No independent savings audit is claimed.

@@ -14,7 +14,7 @@ def validate(master_rows: list[dict], detail_rows: list[dict], requirement_rows:
     Requirement rows use '1' to indicate mandatory detail labels. A missing
     detail is flagged; an optional detail is OK. Null/missing IDs are rejected.
     """
-    masters = [str(row['order_id']).strip() for row in master_rows]
+    masters = [str(row.get('order_id') or '').strip() for row in master_rows]
     if any(not key for key in masters) or len(masters) != len(set(masters)):
         raise ValueError('Master IDs must be nonempty and unique')
     details = defaultdict(set)

@@ -1,0 +1,5 @@
+mode,service,allowed
+road,standard,1
+road,express,1
+sea,standard,1
+sea,express,0

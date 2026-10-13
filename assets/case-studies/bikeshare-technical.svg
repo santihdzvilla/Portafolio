@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img">
+<rect width="1000" height="700" fill="#0f1d2c"/>
+<text x="50" y="52" fill="#ffffff" font-size="27" font-family="sans-serif">Routing with finite capacity</text>
+<text x="50" y="86" fill="#91b6c9" font-size="22" font-family="sans-serif">Ruteo con capacidad finita</text>
+<rect x="50" y="118" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="157" fill="#64d4c0" font-size="24" font-family="sans-serif">01 · Station imbalance / Desequilibrio</text>
+<text x="75" y="194" fill="#ffffff" font-size="21" font-family="sans-serif">Identify supply and demand / Oferta y demanda</text>
+<rect x="50" y="245" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="284" fill="#64d4c0" font-size="24" font-family="sans-serif">02 · Construct routes / Construir rutas</text>
+<text x="75" y="321" fill="#ffffff" font-size="21" font-family="sans-serif">Nearest neighbor vs hull / Vecino cercano vs envolvente</text>
+<rect x="50" y="372" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="411" fill="#64d4c0" font-size="24" font-family="sans-serif">03 · Enforce capacity / Aplicar capacidad</text>
+<text x="75" y="448" fill="#ffffff" font-size="21" font-family="sans-serif">10 or 20 bicycles per truck / Bicicletas por camión</text>
+<rect x="50" y="499" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
+<text x="75" y="538" fill="#64d4c0" font-size="24" font-family="sans-serif">04 · Compare scenarios / Comparar escenarios</text>
+<text x="75" y="575" fill="#ffffff" font-size="21" font-family="sans-serif">Distance, time, fleet / Distancia, tiempo, flota</text>
+<text x="50" y="664" fill="#b8cad7" font-size="17" font-family="sans-serif">Conceptual reconstruction; no real station locations / Reconstrucción sin ubicaciones reales</text>
+</svg>

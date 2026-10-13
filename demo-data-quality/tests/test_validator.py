@@ -37,3 +37,8 @@ class ValidationTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class NullMasterTests(unittest.TestCase):
+    def test_null_id_is_rejected(self):
+        with self.assertRaises(ValueError):
+            validate([{"order_id": None}], [], [])

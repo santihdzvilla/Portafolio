@@ -1,0 +1,5 @@
+id,mode,service,status
+A,road,standard,OK
+B,sea,express,Invalid
+C,,standard,Missing
+D,air,express,Unknown

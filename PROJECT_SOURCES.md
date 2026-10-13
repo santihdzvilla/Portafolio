@@ -20,3 +20,8 @@ The 12 public case studies are editorial summaries and plans; the source documen
 **Attribution:** Several academic documents list multiple team members. Avoid claiming sole authorship of group results. Confirm individual contributions before publication.
 
 **Evidence language:** Use “modeled”, “reported”, “proposed”, “documented”, and “implemented” precisely. No unverified business outcomes.
+
+
+## v2.1 authoritative corrections
+
+The supplied v2 ZIP is the actual continuation base. Use cases.json and PUBLICATION_CHECKLIST.md for current implementation status. Three synthetic Python demos are now runnable; remaining demos are planned. Coppel displayed values imply +44.5%, not +51%. €13,452 is a reported annual aggregate across RPA initiatives, with no per-initiative allocation. No independent savings audit is claimed.

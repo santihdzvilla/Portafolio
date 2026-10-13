@@ -1,0 +1,5 @@
+id,mode,service
+A, ROAD ,Standard
+B,sea,express
+C,,standard
+D,air,express
