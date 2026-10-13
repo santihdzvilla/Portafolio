@@ -356,7 +356,14 @@ window.caseStudiesData = {
         "SQL",
         "Qlik",
         "Testing"
-      ]
+      ],
+      "professional_scope": {
+        "multinational_clients": ">10",
+        "dataset_records": ">5000000",
+        "control_points": ">45",
+        "source": "Owner confirmation, 13 October 2026",
+        "scope": "Career experience, not results of the synthetic demo"
+      }
     }
   },
   "compatibility": {
