@@ -1,4 +1,4 @@
-# Santiago Hernández Villa — Portfolio v2.7
+# Santiago Hernández Villa — Portfolio v2.8
 
 Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
@@ -46,3 +46,7 @@ Supplied EN/ES PDFs are included unchanged in `assets/cv/`. Hero and contact dow
 ## Clear demo navigation
 
 Three browser forms in `#demo-lab` let visitors try fictional weight, compatibility and required-data rules directly. Code ZIP downloads include Python implementation and README. Planned cases remain explanatory. Both CV language downloads are always visible; independent of UI language.
+
+## v2.8 content
+
+Removed weight reconciliation as a standalone case; retained the control within the operations dashboard. Replaced form demos with a bilingual forecasting comparison using reproducible synthetic data, rolling one-step validation and downloadable CSV. Transit-time case highlights owner-confirmed 50,000 orders / 50 matrices, without disclosing private combinations.

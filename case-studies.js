@@ -322,10 +322,10 @@ window.caseStudiesData = {
         "quality-cardinality.png",
         "bi-method.png"
       ],
-      "implementation": "demo-data-quality",
       "title": "Data Quality Rules Engine",
       "dataset": "Fictional CSV records are included with the demo.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dashboard_demo": true
     },
     "es": {
       "context": "Validar un registro maestro frente a múltiples detalles obligatorios sin multiplicar filas.",
@@ -342,10 +342,10 @@ window.caseStudiesData = {
         "quality-cardinality.png",
         "bi-method.png"
       ],
-      "implementation": "demo-data-quality",
       "title": "Motor de reglas de calidad de datos",
       "dataset": "La demo incluye registros CSV ficticios.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dashboard_demo": true
     },
     "metadata": {
       "source": "CV / generic professional problem reconstruction",
@@ -382,10 +382,10 @@ window.caseStudiesData = {
         "bi-method.png",
         "compatibility-technical.svg"
       ],
-      "implementation": "demo-compatibility",
       "title": "Attribute Compatibility Validator",
       "dataset": "Fictional CSV records are included with the demo.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dashboard_demo": true
     },
     "es": {
       "context": "Validar pares de atributos frente a un catálogo permitido o prohibido.",
@@ -402,10 +402,10 @@ window.caseStudiesData = {
         "bi-method.png",
         "compatibility-technical.svg"
       ],
-      "implementation": "demo-compatibility",
       "title": "Validador de compatibilidad de atributos",
       "dataset": "La demo incluye registros CSV ficticios.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dashboard_demo": true
     },
     "metadata": {
       "source": "CV / generic professional problem reconstruction",
@@ -420,39 +420,41 @@ window.caseStudiesData = {
   },
   "transit": {
     "en": {
-      "context": "Assign target transit times consistently across transport modes, distance bands and exception routes.",
+      "context": "Transform and classify 50,000 orders against 50 transit-time matrices containing different combinations. The key challenge is translating matrix conditions into consistent analytical classifications.",
       "method": [
         "Create priority-ordered rules with fictional geographic labels.",
         "Evaluate interval boundaries and fallback behavior.",
         "Test missing mileage and conflicting rules.",
         "Return a single explainable result per order."
       ],
-      "result": "Proposed public demonstration, not a production release.",
-      "role": "Professional rule-design pattern reconstructed with synthetic data.",
-      "caveat": "Avoid real client SLA commitments, routes and distance thresholds.",
+      "result": "Santiago confirms work transforming 50,000 orders and classifying them against 50 matrices. No processing duration, accuracy rate or financial impact is claimed. Public illustrations show a conceptual approach, not internal matrix values.",
+      "role": "Professional work described by Santiago; the transformation and classification was performed as a team. Individual responsibility by stage has not been specified.",
+      "caveat": "Matrix combinations, precedence and operational rules are private. The scope figures are owner-confirmed; the public demo is independent and does not process the real 50,000 orders.",
       "images": [
-        "bi-method.png"
+        "transit-scope.svg",
+        "transit-matrix.svg"
       ],
       "title": "Transit-Time Decision Rules",
-      "dataset": "No public dataset or executable implementation yet.",
+      "dataset": "50,000 orders transformed; 50 classification matrices. Real order data and matrices are not distributed.",
       "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
     },
     "es": {
-      "context": "Asignar tiempos objetivo de tránsito por modo, rangos de distancia y excepciones.",
+      "context": "Transformar y clasificar 50,000 órdenes según 50 matrices de transit times con diferentes combinaciones. El reto es traducir las condiciones de las matrices a clasificaciones analíticas consistentes.",
       "method": [
         "Crear reglas ordenadas con geografía ficticia.",
         "Evaluar límites de rangos y reglas por defecto.",
         "Probar distancias faltantes y reglas en conflicto.",
         "Regresar un resultado explicable por orden."
       ],
-      "result": "Demostración pública propuesta, no versión de producción.",
-      "role": "Patrón profesional reconstruido con datos sintéticos.",
-      "caveat": "No revelar SLA, rutas o umbrales reales de clientes.",
+      "result": "Santiago confirma el trabajo de transformación de 50,000 órdenes y clasificación según 50 matrices. No se atribuyen tiempos de procesamiento, exactitud ni impacto financiero no confirmados. Las imágenes muestran un enfoque conceptual; no valores internos de matrices.",
+      "role": "Trabajo profesional descrito por Santiago; la transformación y clasificación se realizó en equipo. No se ha especificado la responsabilidad individual por etapa.",
+      "caveat": "Combinaciones, precedencias y reglas operativas son privadas. Las cifras de alcance fueron confirmadas por Santiago; la demo pública es independiente y no procesa las 50,000 órdenes reales.",
       "images": [
-        "bi-method.png"
+        "transit-scope.svg",
+        "transit-matrix.svg"
       ],
       "title": "Reglas de decisión para tiempos de tránsito",
-      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
+      "dataset": "50,000 órdenes transformadas; 50 matrices de clasificación. No se distribuyen órdenes ni matrices reales.",
       "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
     },
     "metadata": {
@@ -463,59 +465,13 @@ window.caseStudiesData = {
         "Qlik",
         "SQL",
         "Rule engine"
-      ]
-    }
-  },
-  "weight": {
-    "en": {
-      "context": "Reconcile a declared weight with the sum of component weights while handling binary precision and missing records.",
-      "method": [
-        "Aggregate detail weight to the master record grain.",
-        "Round nonnegative weights using floor(value + 0.5).",
-        "Compare rounded integers and expose the difference.",
-        "Separate missing master, missing detail and mismatch states."
       ],
-      "result": "Included demo aggregates detail weights before decimal half-up rounding. Tests cover .49/.50/.51, repeated units, missing values and invalid weights. Synthetic output is available as CSV.",
-      "role": "Professional validation pattern with synthetic numerical examples.",
-      "caveat": "Runnable Python reconstruction using fictional data and rules; does not reproduce an employer system.",
-      "images": [
-        "weight-rounding.png",
-        "bi-method.png"
-      ],
-      "implementation": "demo-weight-reconciliation",
-      "title": "Weight Reconciliation & Rounding",
-      "dataset": "Fictional CSV records are included with the demo.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
-    },
-    "es": {
-      "context": "Conciliar peso declarado con suma de componentes manejando precisión y registros faltantes.",
-      "method": [
-        "Agregar pesos de detalle a la granularidad del maestro.",
-        "Redondear pesos no negativos con floor(valor + 0.5).",
-        "Comparar enteros y calcular diferencia.",
-        "Distinguir peso faltante, detalle faltante y discrepancia."
-      ],
-      "result": "La demo incluida agrega pesos de detalle antes del redondeo decimal half-up. Las pruebas cubren .49/.50/.51, unidades repetidas, faltantes y pesos inválidos. Incluye salida CSV ficticia.",
-      "role": "Patrón profesional con ejemplos numéricos ficticios.",
-      "caveat": "Reconstrucción ejecutable en Python con datos y reglas ficticios; no reproduce un sistema del empleador.",
-      "images": [
-        "weight-rounding.png",
-        "bi-method.png"
-      ],
-      "implementation": "demo-weight-reconciliation",
-      "title": "Conciliación de pesos y redondeo",
-      "dataset": "La demo incluye registros CSV ficticios.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
-    },
-    "metadata": {
-      "source": "CV / generic professional problem reconstruction",
-      "evidence": "synthetic-demo-tested",
-      "publication": "Original source files excluded; brand/claim permissions pending",
-      "tools": [
-        "Python",
-        "Qlik",
-        "Validation"
-      ]
+      "professional_scope": {
+        "orders": 50000,
+        "matrices": 50,
+        "source": "Owner confirmation, 13 October 2026",
+        "period": "Not specified"
+      }
     }
   },
   "finance": {

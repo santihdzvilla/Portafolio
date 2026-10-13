@@ -32,3 +32,7 @@ Added exact supplied EN/ES CV PDFs and language-dependent hero/contact downloads
 ## v2.7
 
 Added three in-browser control examples with editable inputs and actual computed results; distinguished Try demo / Code download / Case summary. Added Python ZIP downloads and full-case links to forms. Both CV language options now visible simultaneously in hero and contact.
+
+## v2.8
+
+Removed weight case and all browser control forms; retained weight check in dashboard. Added interactive demand/forecast chart, three methods, selectable horizon/alpha and rolling validation metrics. Added transit scope and combination-matrix technical visuals.
