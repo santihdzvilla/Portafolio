@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img">
-<rect width="1000" height="700" fill="#0f1d2c"/>
-<text x="50" y="52" fill="#ffffff" font-size="27" font-family="sans-serif">From diagnosis to layout proposal</text>
-<text x="50" y="86" fill="#91b6c9" font-size="22" font-family="sans-serif">Del diagnóstico a la propuesta de layout</text>
-<rect x="50" y="118" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="157" fill="#64d4c0" font-size="24" font-family="sans-serif">01 · Observe flow / Observar flujo</text>
-<text x="75" y="194" fill="#ffffff" font-size="21" font-family="sans-serif">SIPOC, VSM and spaghetti / SIPOC, VSM y spaghetti</text>
-<rect x="50" y="245" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="284" fill="#64d4c0" font-size="24" font-family="sans-serif">02 · Measure travel / Medir recorrido</text>
-<text x="75" y="321" fill="#ffffff" font-size="21" font-family="sans-serif">Report baseline: 216.8 m / Base del reporte: 216.8 m</text>
-<rect x="50" y="372" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="411" fill="#64d4c0" font-size="24" font-family="sans-serif">03 · Redesign layout / Rediseñar layout</text>
-<text x="75" y="448" fill="#ffffff" font-size="21" font-family="sans-serif">Proposed travel: 166 m / Recorrido propuesto: 166 m</text>
-<rect x="50" y="499" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="538" fill="#64d4c0" font-size="24" font-family="sans-serif">04 · Validate scope / Validar alcance</text>
-<text x="75" y="575" fill="#ffffff" font-size="21" font-family="sans-serif">23.4% calculated reduction / Reducción calculada 23.4%</text>
-<text x="50" y="664" fill="#b8cad7" font-size="17" font-family="sans-serif">Academic proposal; does not establish sustained production impact / Propuesta académica</text>
+<rect width="1000" height="700" fill="#f5faf9"/>
+<text x="50" y="52" fill="#203d4b" font-size="27" font-family="sans-serif">From diagnosis to layout proposal</text>
+<text x="50" y="86" fill="#607d88" font-size="22" font-family="sans-serif">Del diagnóstico a la propuesta de layout</text>
+<rect x="50" y="118" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="157" fill="#087f72" font-size="24" font-family="sans-serif">01 · Observe flow / Observar flujo</text>
+<text x="75" y="194" fill="#203d4b" font-size="21" font-family="sans-serif">SIPOC, VSM and spaghetti / SIPOC, VSM y spaghetti</text>
+<rect x="50" y="245" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="284" fill="#087f72" font-size="24" font-family="sans-serif">02 · Measure travel / Medir recorrido</text>
+<text x="75" y="321" fill="#203d4b" font-size="21" font-family="sans-serif">Report baseline: 216.8 m / Base del reporte: 216.8 m</text>
+<rect x="50" y="372" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="411" fill="#087f72" font-size="24" font-family="sans-serif">03 · Redesign layout / Rediseñar layout</text>
+<text x="75" y="448" fill="#203d4b" font-size="21" font-family="sans-serif">Proposed travel: 166 m / Recorrido propuesto: 166 m</text>
+<rect x="50" y="499" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="538" fill="#087f72" font-size="24" font-family="sans-serif">04 · Validate scope / Validar alcance</text>
+<text x="75" y="575" fill="#203d4b" font-size="21" font-family="sans-serif">23.4% calculated reduction / Reducción calculada 23.4%</text>
+<text x="50" y="664" fill="#5c7884" font-size="17" font-family="sans-serif">Academic proposal; does not establish sustained production impact / Propuesta académica</text>
 </svg>

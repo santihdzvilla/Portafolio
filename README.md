@@ -1,4 +1,4 @@
-# Santiago Hernández Villa — Portfolio v2.3
+# Santiago Hernández Villa — Portfolio v2.5
 
 Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
@@ -34,3 +34,7 @@ Portafolio estático bilingüe. `cases.json` centraliza contenido y evidencia. I
 ## Interactive dashboard
 
 Visit `index.html#dashboard`. Four interactive views, normalized synthetic SQLite source, 2,400 fictional shipments, filterable charts/KPIs, record inspection and CSV export. See `dashboard/README.md` for data pipeline, definitions and limitations.
+
+## Day / night
+
+Use the topbar Day/Night button beside the language switch. Preference is stored locally and shared between home and full cases. Default: day. Both palettes include matching technical visuals.

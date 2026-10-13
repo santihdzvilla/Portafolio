@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img">
-<rect width="1000" height="700" fill="#0f1d2c"/>
-<text x="50" y="52" fill="#ffffff" font-size="27" font-family="sans-serif">Investment model and sensitivity</text>
-<text x="50" y="86" fill="#91b6c9" font-size="22" font-family="sans-serif">Modelo de inversión y sensibilidad</text>
-<rect x="50" y="118" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="157" fill="#64d4c0" font-size="24" font-family="sans-serif">01 · Volume / Volumen</text>
-<text x="75" y="194" fill="#ffffff" font-size="21" font-family="sans-serif">4,000 demand; 5,000 capacity daily / Por día</text>
-<rect x="50" y="245" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="284" fill="#64d4c0" font-size="24" font-family="sans-serif">02 · Unit economics / Economía unitaria</text>
-<text x="75" y="321" fill="#ffffff" font-size="21" font-family="sans-serif">8.00 price; 4.50 variable cost / Precio; costo variable</text>
-<rect x="50" y="372" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="411" fill="#64d4c0" font-size="24" font-family="sans-serif">03 · Cash flow / Flujo de efectivo</text>
-<text x="75" y="448" fill="#ffffff" font-size="21" font-family="sans-serif">Revenue − costs − tax − investment / Ingresos menos egresos</text>
-<rect x="50" y="499" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="538" fill="#64d4c0" font-size="24" font-family="sans-serif">04 · Sensitivity / Sensibilidad</text>
-<text x="75" y="575" fill="#ffffff" font-size="21" font-family="sans-serif">Demand, costs and discount rate / Demanda, costos y tasa</text>
-<text x="50" y="664" fill="#b8cad7" font-size="17" font-family="sans-serif">Academic assumptions; currency as in source, no realized business outcome / Supuestos académicos</text>
+<rect width="1000" height="700" fill="#f5faf9"/>
+<text x="50" y="52" fill="#203d4b" font-size="27" font-family="sans-serif">Investment model and sensitivity</text>
+<text x="50" y="86" fill="#607d88" font-size="22" font-family="sans-serif">Modelo de inversión y sensibilidad</text>
+<rect x="50" y="118" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="157" fill="#087f72" font-size="24" font-family="sans-serif">01 · Volume / Volumen</text>
+<text x="75" y="194" fill="#203d4b" font-size="21" font-family="sans-serif">4,000 demand; 5,000 capacity daily / Por día</text>
+<rect x="50" y="245" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="284" fill="#087f72" font-size="24" font-family="sans-serif">02 · Unit economics / Economía unitaria</text>
+<text x="75" y="321" fill="#203d4b" font-size="21" font-family="sans-serif">8.00 price; 4.50 variable cost / Precio; costo variable</text>
+<rect x="50" y="372" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="411" fill="#087f72" font-size="24" font-family="sans-serif">03 · Cash flow / Flujo de efectivo</text>
+<text x="75" y="448" fill="#203d4b" font-size="21" font-family="sans-serif">Revenue − costs − tax − investment / Ingresos menos egresos</text>
+<rect x="50" y="499" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="538" fill="#087f72" font-size="24" font-family="sans-serif">04 · Sensitivity / Sensibilidad</text>
+<text x="75" y="575" fill="#203d4b" font-size="21" font-family="sans-serif">Demand, costs and discount rate / Demanda, costos y tasa</text>
+<text x="50" y="664" fill="#5c7884" font-size="17" font-family="sans-serif">Academic assumptions; currency as in source, no realized business outcome / Supuestos académicos</text>
 </svg>

@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img">
-<rect width="1000" height="700" fill="#0f1d2c"/>
-<text x="50" y="52" fill="#ffffff" font-size="27" font-family="sans-serif">Two-machine scheduling formulation</text>
-<text x="50" y="86" fill="#91b6c9" font-size="22" font-family="sans-serif">Formulación de secuenciación en dos máquinas</text>
-<rect x="50" y="118" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="157" fill="#64d4c0" font-size="24" font-family="sans-serif">01 · Decision / Decisión</text>
-<text x="75" y="194" fill="#ffffff" font-size="21" font-family="sans-serif">Binary predecessor arcs x(i,j,k) / Arcos binarios</text>
-<rect x="50" y="245" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="284" fill="#64d4c0" font-size="24" font-family="sans-serif">02 · Objective / Objetivo</text>
-<text x="75" y="321" fill="#ffffff" font-size="21" font-family="sans-serif">Minimize maximum completion W / Minimizar W</text>
-<rect x="50" y="372" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="411" fill="#64d4c0" font-size="24" font-family="sans-serif">03 · Constraints / Restricciones</text>
-<text x="75" y="448" fill="#ffffff" font-size="21" font-family="sans-serif">4 jobs per machine; no overlap / 4 tareas; sin traslape</text>
-<rect x="50" y="499" width="900" height="107" rx="12" fill="#193345" stroke="#64d4c0"/>
-<text x="75" y="538" fill="#64d4c0" font-size="24" font-family="sans-serif">04 · Special restrictions / Restricciones especiales</text>
-<text x="75" y="575" fill="#ffffff" font-size="21" font-family="sans-serif">7–8 not adjacent; 1–2 not first / No adyacentes; no iniciales</text>
-<text x="50" y="664" fill="#b8cad7" font-size="17" font-family="sans-serif">Method reconstruction; solver optimum not independently verified / Óptimo no verificado</text>
+<rect width="1000" height="700" fill="#f5faf9"/>
+<text x="50" y="52" fill="#203d4b" font-size="27" font-family="sans-serif">Two-machine scheduling formulation</text>
+<text x="50" y="86" fill="#607d88" font-size="22" font-family="sans-serif">Formulación de secuenciación en dos máquinas</text>
+<rect x="50" y="118" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="157" fill="#087f72" font-size="24" font-family="sans-serif">01 · Decision / Decisión</text>
+<text x="75" y="194" fill="#203d4b" font-size="21" font-family="sans-serif">Binary predecessor arcs x(i,j,k) / Arcos binarios</text>
+<rect x="50" y="245" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="284" fill="#087f72" font-size="24" font-family="sans-serif">02 · Objective / Objetivo</text>
+<text x="75" y="321" fill="#203d4b" font-size="21" font-family="sans-serif">Minimize maximum completion W / Minimizar W</text>
+<rect x="50" y="372" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="411" fill="#087f72" font-size="24" font-family="sans-serif">03 · Constraints / Restricciones</text>
+<text x="75" y="448" fill="#203d4b" font-size="21" font-family="sans-serif">4 jobs per machine; no overlap / 4 tareas; sin traslape</text>
+<rect x="50" y="499" width="900" height="107" rx="12" fill="#ffffff" stroke="#087f72"/>
+<text x="75" y="538" fill="#087f72" font-size="24" font-family="sans-serif">04 · Special restrictions / Restricciones especiales</text>
+<text x="75" y="575" fill="#203d4b" font-size="21" font-family="sans-serif">7–8 not adjacent; 1–2 not first / No adyacentes; no iniciales</text>
+<text x="50" y="664" fill="#5c7884" font-size="17" font-family="sans-serif">Method reconstruction; solver optimum not independently verified / Óptimo no verificado</text>
 </svg>

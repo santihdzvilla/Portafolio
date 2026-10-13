@@ -16,3 +16,11 @@ Added owner-confirmed professional scope in EN/ES: more than 10 multinational cl
 ## v2.3 — Interactive operations dashboard
 
 Added bilingual 4-view dashboard with working filters, computed KPIs, weekly SVG charts, exception drilldown, CSV export and SQLite download. Synthetic normalized database and browser snapshot generated reproducibly from 2,400 shipments and 12 fictional clients. Includes eight generic control rules and financial/cardinality tests. Actual professional scale and reported RPA savings are separate from this demo. Browser layout QA remains pending.
+
+## v2.4 — Light theme
+
+Changed portfolio, full case pages, dialogs, dashboard and technical illustrations to light surfaces, dark readable text and deep teal accents. Interactions and data unchanged.
+
+## v2.5 — Day/night switch
+
+Added bilingual topbar theme control, persistent preference, and theme support on home, dashboard, full cases, dialogs and technical images. Day is default until a preference is saved. Night restores the original v2.3 dark palette.
