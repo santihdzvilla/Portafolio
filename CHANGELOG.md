@@ -36,3 +36,11 @@ Added three in-browser control examples with editable inputs and actual computed
 ## v2.8
 
 Removed weight case and all browser control forms; retained weight check in dashboard. Added interactive demand/forecast chart, three methods, selectable horizon/alpha and rolling validation metrics. Added transit scope and combination-matrix technical visuals.
+
+## v2.9 — Editorial polish
+
+Distinct plum/lavender case section and cobalt/pale-blue dashboard section in both modes. Removed duplicate scale section, generic methodology, repeated education line and duplicate case-summary action. Added conceptual editorial covers; factual charts and confidentiality/evidence labels retained.
+
+## v3.0
+
+First-person/impersonal case narratives with team attribution retained. Twelve distinct conceptual SVG case covers in day/night palettes. Project cards now show covers; analytical figures remain inside complete case pages.

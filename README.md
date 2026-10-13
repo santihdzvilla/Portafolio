@@ -1,4 +1,4 @@
-# Santiago Hernández Villa — Portfolio v2.8
+# Santiago Hernández Villa — Portfolio v3.0
 
 Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
