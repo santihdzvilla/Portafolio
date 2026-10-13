@@ -44,3 +44,7 @@ Distinct plum/lavender case section and cobalt/pale-blue dashboard section in bo
 ## v3.0
 
 First-person/impersonal case narratives with team attribution retained. Twelve distinct conceptual SVG case covers in day/night palettes. Project cards now show covers; analytical figures remain inside complete case pages.
+
+## v3.1
+
+Added supplied university logos and two unchanged project layout/travel diagrams. Rewrote case participation, results and lessons as project stories; removed CV-review and publication-audit phrasing from public case pages while retaining academic and fictional-data context. Original attachment bytes preserved.

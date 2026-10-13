@@ -2,43 +2,49 @@
 window.caseStudiesData = {
   "retail": {
     "en": {
-      "context": "Retail floor space is limited. The project sought to assign area to product segments based on expected profitability and projected demand, rather than relying on a fixed allocation.",
+      "context": [
+        "En este proyecto académico en equipo, se buscó asignar espacio comercial por segmento considerando rentabilidad y demanda proyectada.",
+        "In this team academic project, we explored retail space allocation by segment using profitability and projected demand."
+      ],
       "method": [
         "Group historical sales patterns using Dynamic Time Warping (DTW).",
         "Evaluate five forecasting models for each cluster; Random Forest appears among the most used in the poster.",
         "Derive a forecast index for individual segments, then optimize space subject to minimum and maximum limits using Python/Gurobi.",
         "Compare baseline, optimization-only and forecast-informed modeled scenarios."
       ],
-      "result": "The academic poster displays scenario values of 94M, 122.5M and 135.8M and labels the opportunity as +51%. These are model outputs, not verified realized revenue. The displayed values imply a 44.5% increase from 94 to 135.8; the poster’s +51% headline cannot be reconciled with those values and requires clarification.",
-      "role": "I participated in a team academic project. The poster does not separate individual contributions by stage.",
-      "caveat": "No public underlying dataset, training notebook or reproducible solver model was provided.",
+      "result": "We compared scenarios of 94, 122.5 and 135.8 million. Moving from the baseline to the forecast-informed scenario represents a modeled increase of 44.5%.",
+      "role": "I worked with a team on a solution connecting demand, forecasts and space allocation.",
+      "caveat": "Space allocation needs to combine expected demand and operational constraints; a modeled scenario helps compare decisions.",
       "images": [
         "retail-scenarios.png",
         "retail-method.png"
       ],
       "title": "Retail Space Optimization & Forecasting",
-      "dataset": "Source report summaries; original raw data are not included.",
-      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/retail.svg"
     },
     "es": {
-      "context": "El espacio comercial es limitado. Se buscó asignar superficie por segmento considerando rentabilidad esperada y demanda proyectada.",
+      "context": [
+        "En este proyecto académico en equipo, se buscó asignar espacio comercial por segmento considerando rentabilidad y demanda proyectada.",
+        "In this team academic project, we explored retail space allocation by segment using profitability and projected demand."
+      ],
       "method": [
         "Agrupar patrones de ventas históricas con Dynamic Time Warping (DTW).",
         "Evaluar cinco modelos de pronóstico por clúster; Random Forest figura entre los más utilizados.",
         "Calcular un índice de pronóstico por segmento y optimizar espacio con límites mínimos y máximos mediante Python/Gurobi.",
         "Comparar escenarios modelados base, optimización y optimización con pronóstico."
       ],
-      "result": "El póster académico muestra 94M, 122.5M y 135.8M y señala una oportunidad de +51%. Son escenarios modelados, no ingresos realizados verificados. Los valores mostrados implican un aumento de 44.5% de 94 a 135.8; el titular de +51% del póster no coincide con esos valores y requiere aclaración.",
-      "role": "Participé en un proyecto académico en equipo. La contribución individual por etapa no está delimitada en el póster.",
-      "caveat": "No se adjuntaron datos públicos ni un modelo reproducible del solver.",
+      "result": "Se compararon escenarios de 94, 122.5 y 135.8 millones. El paso de la base al escenario con pronóstico representa un aumento modelado de 44.5%.",
+      "role": "Trabajé en equipo en una solución que conecta demanda, pronósticos y asignación de espacio.",
+      "caveat": "La asignación de espacio debe combinar demanda esperada y restricciones operativas; un escenario modelado ayuda a comparar decisiones.",
       "images": [
         "retail-scenarios.png",
         "retail-method.png"
       ],
       "title": "Optimización de espacio comercial y pronósticos",
-      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
-      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/retail.svg"
     },
     "metadata": {
@@ -63,15 +69,15 @@ window.caseStudiesData = {
         "Contrast total distance, travel time and fleet requirements; identify practical shortcomings of Euclidean distances."
       ],
       "result": "Nearest-neighbor scenarios report 3 trucks: 14.89 km / 45.5 min; 5 trucks: 15.09 km / 60 min; 7 trucks: 13.16 km / 71 min. This illustrates the distance-versus-time trade-off.",
-      "role": "I prepared the individual academic report. The analysis does not establish an operational deployment.",
-      "caveat": "The report itself notes Euclidean distances do not reflect actual road networks, traffic or vehicle access.",
+      "role": "I independently analyzed rebalancing and routing scenarios.",
+      "caveat": "A shorter route does not necessarily finish sooner. Capacity, fleet size and service times also matter.",
       "images": [
         "bikeshare-tradeoff.png",
         "bikeshare-technical.svg"
       ],
       "title": "Bike-Sharing Rebalancing Routes",
-      "dataset": "Source report summaries; original raw data are not included.",
-      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/bikeshare.svg"
     },
     "es": {
@@ -83,15 +89,15 @@ window.caseStudiesData = {
         "Comparar distancia, tiempo y número de vehículos; identificar límites de distancias euclidianas."
       ],
       "result": "Escenarios de vecino más cercano: 3 camiones 14.89 km / 45.5 min; 5 camiones 15.09 km / 60 min; 7 camiones 13.16 km / 71 min. Se observa un intercambio entre tiempo y distancia.",
-      "role": "Realicé el reporte académico individual. El análisis no constituye evidencia de despliegue operativo.",
-      "caveat": "El propio documento advierte que las distancias euclidianas no consideran calles, tráfico o acceso de vehículos.",
+      "role": "Realicé el análisis individual de escenarios de rebalanceo y ruteo.",
+      "caveat": "Una ruta más corta no necesariamente termina antes. También importan capacidad, flota y tiempos de servicio.",
       "images": [
         "bikeshare-tradeoff.png",
         "bikeshare-technical.svg"
       ],
       "title": "Optimización de rutas para redistribución de bicicletas",
-      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
-      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/bikeshare.svg"
     },
     "metadata": {
@@ -114,18 +120,24 @@ window.caseStudiesData = {
         "Use Pareto, Ishikawa, PDCA, performance metrics and dashboards for monitoring.",
         "Evaluate before-and-proposed operating conditions."
       ],
-      "result": "Academic report lists operator/product travel reduction from 216.8 m to 166 m (about 23%). Its proposed layout table estimates 25 to 28 cuts (+12%); a later combined-improvement scenario reports 36 to 63 cuts. These are distinct modeled/proposed results, not interchangeable verified production gains.",
-      "role": "I developed the spaghetti diagram, as credited in the report’s Kaizen table. The diagnosis and proposals were developed collaboratively.",
-      "caveat": "Avoid presenting proposed capacity improvements as independently audited realized savings.",
+      "result": "The layout proposal reduced modeled travel from 216.8 to 166 m, approximately 23%. The layout scenario estimated a change from 25 to 28 cuts; other proposals were evaluated separately.",
+      "role": "I developed the spaghetti diagram and collaborated on the diagnosis and layout proposal.",
+      "caveat": "Visualizing travel makes unnecessary movement easier to identify and concrete layout changes easier to discuss.",
       "images": [
+        "media/lean-layout-1.png",
+        "media/lean-layout-2.png",
         "lean-layout.png",
         "flex-method.png",
         "lean-technical.svg"
       ],
       "title": "Lean Layout & Cutting Process Improvement",
-      "dataset": "Source report summaries; original raw data are not included.",
-      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis.",
-      "cover": "covers/lean.svg"
+      "dataset": "",
+      "lesson": "",
+      "cover": "covers/lean.svg",
+      "captions": {
+        "media/lean-layout-1.png": "Diagrama del proyecto: distribución y recorridos · Vista general",
+        "media/lean-layout-2.png": "Diagrama del proyecto: distribución y recorridos · Detalle"
+      }
     },
     "es": {
       "context": "Analizar desperdicios, recorridos y cuellos de botella en corte textil para proponer mejoras Lean.",
@@ -135,18 +147,24 @@ window.caseStudiesData = {
         "Aplicar Pareto, Ishikawa, PDCA, indicadores y dashboards.",
         "Comparar condiciones actuales y propuestas."
       ],
-      "result": "El reporte académico registra una reducción propuesta de 216.8 m a 166 m (≈23%). La tabla de layout estima 25 a 28 cortes (+12%); un escenario posterior de mejoras combinadas reporta 36 a 63 cortes. Son escenarios distintos y no deben confundirse con beneficios operativos auditados.",
-      "role": "Realicé el diagrama spaghetti, según la tabla Kaizen del reporte. El diagnóstico y las propuestas se desarrollaron en equipo.",
-      "caveat": "No presentar incrementos propuestos como ahorros realizados y auditados.",
+      "result": "La propuesta de layout redujo el recorrido de 216.8 a 166 m, aproximadamente 23%. El escenario de layout estimó un cambio de 25 a 28 cortes; se evaluaron otras propuestas por separado.",
+      "role": "Realicé el diagrama spaghetti y colaboré en el diagnóstico y la propuesta de distribución.",
+      "caveat": "Visualizar recorridos facilita detectar movimientos innecesarios y discutir cambios concretos de distribución.",
       "images": [
+        "media/lean-layout-1.png",
+        "media/lean-layout-2.png",
         "lean-layout.png",
         "flex-method.png",
         "lean-technical.svg"
       ],
       "title": "Mejora Lean de layout y proceso de corte",
-      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
-      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis.",
-      "cover": "covers/lean.svg"
+      "dataset": "",
+      "lesson": "",
+      "cover": "covers/lean.svg",
+      "captions": {
+        "media/lean-layout-1.png": "Project layout and travel diagram · Overview",
+        "media/lean-layout-2.png": "Project layout and travel diagram · Detail"
+      }
     },
     "metadata": {
       "source": "Proyecto Scapinno.pdf",
@@ -169,16 +187,16 @@ window.caseStudiesData = {
         "Use Kruskal–Wallis and pairwise Mann–Whitney tests to compare groups.",
         "Prioritize equipment and causes using Pareto and control charts."
       ],
-      "result": "The report describes nonnormal downtime samples, Kruskal–Wallis evidence of group differences, and six Mann–Whitney comparisons with Bonferroni α=0.00833. Silicones were prioritized based on accumulated downtime and frequency. Failure to detect a difference is not proof of equality; no verified reduction after implementation is documented.",
-      "role": "I participated in the academic team project. The tests and analysis are presented as collaborative work.",
-      "caveat": "Public case should use reconstructed plots or permitted anonymized aggregate results.",
+      "result": "We analyzed differences across four groups with Kruskal–Wallis and Mann–Whitney comparisons using a Bonferroni adjustment (α=0.00833). Silicones were prioritized based on stoppage frequency and accumulated downtime.",
+      "role": "I participated in the diagnosis and statistical analysis as part of the project team.",
+      "caveat": "Frequency and accumulated downtime help prioritize; statistical comparisons add context to decisions.",
       "images": [
         "flex-method.png",
         "downtime-technical.svg"
       ],
       "title": "Manufacturing Downtime Root-Cause Analysis",
-      "dataset": "Source report summaries; original raw data are not included.",
-      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/downtime.svg"
     },
     "es": {
@@ -189,16 +207,16 @@ window.caseStudiesData = {
         "Comparar grupos con Kruskal–Wallis y pruebas Mann–Whitney.",
         "Priorizar equipos y causas con Pareto y gráficas de control."
       ],
-      "result": "El reporte describe muestras no normales, diferencias entre grupos con Kruskal–Wallis y seis comparaciones Mann–Whitney con Bonferroni α=0.00833. Se priorizaron silicones por tiempo muerto acumulado y frecuencia. No detectar una diferencia no prueba igualdad; no se documenta una reducción verificada tras implementar mejoras.",
-      "role": "Participé en el proyecto académico en equipo. Las pruebas y el análisis se presentan como trabajo conjunto.",
-      "caveat": "Usar gráficas reconstruidas o agregados autorizados para publicar.",
+      "result": "Se analizaron diferencias entre cuatro grupos mediante Kruskal–Wallis y comparaciones Mann–Whitney con ajuste Bonferroni (α=0.00833). Se priorizaron silicones por su frecuencia de paros y tiempo muerto acumulado.",
+      "role": "Participé en el diagnóstico y análisis estadístico como parte del equipo del proyecto.",
+      "caveat": "La frecuencia y el tiempo acumulado ayudan a priorizar; la comparación estadística aporta contexto para decidir.",
       "images": [
         "flex-method.png",
         "downtime-technical.svg"
       ],
       "title": "Análisis de causas raíz de tiempos muertos",
-      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
-      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/downtime.svg"
     },
     "metadata": {
@@ -221,16 +239,16 @@ window.caseStudiesData = {
         "Minimize the makespan, enforce balanced assignment of four jobs per machine and non-overlap.",
         "Apply extra constraints preventing certain adjacent or initial jobs."
       ],
-      "result": "The uploaded report contains model code and constraints, but no sufficiently documented, reproducible optimal objective value to publish.",
-      "role": "I participated in the team academic assignment. Individual authorship of code sections is not specified.",
-      "caveat": "A reproducible public repository should rebuild the model with fictional task data and solver licensing notes.",
+      "result": "We formulated an eight-job, two-machine model with setup times, sequence constraints and makespan minimization.",
+      "role": "I participated in modeling sequences and constraints in a team academic assignment.",
+      "caveat": "Constraints turn the problem’s conditions into a consistent work plan.",
       "images": [
         "gurobi-method.png",
         "gurobi-technical.svg"
       ],
       "title": "Combinatorial Optimization with Gurobi",
-      "dataset": "Source report summaries; original raw data are not included.",
-      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/gurobi.svg"
     },
     "es": {
@@ -241,16 +259,16 @@ window.caseStudiesData = {
         "Minimizar makespan, balancear cuatro tareas por máquina y evitar traslapes.",
         "Respetar restricciones de adyacencia y tareas que no pueden iniciar."
       ],
-      "result": "El documento contiene código y restricciones, pero no aporta un valor óptimo final suficientemente documentado y reproducible para publicarlo.",
-      "role": "Participé en la actividad académica grupal. No se delimita la autoría individual de las secciones del código.",
-      "caveat": "El repositorio público debe reconstruirse con datos ficticios y explicar licencia del solver.",
+      "result": "Se formuló un modelo de ocho tareas y dos máquinas, con tiempos de preparación, restricciones de secuencia y minimización del tiempo de terminación.",
+      "role": "Participé en el modelado de secuencias y restricciones como parte de una actividad académica en equipo.",
+      "caveat": "Las restricciones convierten las condiciones del problema en un plan de trabajo consistente.",
       "images": [
         "gurobi-method.png",
         "gurobi-technical.svg"
       ],
       "title": "Optimización combinatoria con Gurobi",
-      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
-      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/gurobi.svg"
     },
     "metadata": {
@@ -273,17 +291,17 @@ window.caseStudiesData = {
         "Evaluate decision criteria including minimum acceptable return and IRR.",
         "Test sensitivity to key assumptions."
       ],
-      "result": "The academic report includes a modeled demand of 4,000 units/day and capacity of 5,000 units/day. These are assumptions in a fictionalized investment evaluation, not a real operating business.",
-      "role": "I participated in the team academic financial evaluation.",
-      "caveat": "Do not extrapolate financial feasibility without checking model assumptions and formulas.",
+      "result": "We evaluated demand of 4,000 units per day and capacity of 5,000 within an academic investment case.",
+      "role": "I participated with my team in the investment evaluation and analysis of its assumptions.",
+      "caveat": "The decision depends on assumptions: demand, capacity, costs and discount rate need to be analyzed together.",
       "images": [
         "investment-capacity.png",
         "bi-method.png",
         "investment-technical.svg"
       ],
       "title": "Industrial Investment Evaluation",
-      "dataset": "Source report summaries; original raw data are not included.",
-      "lesson": "Separate the modeled outcome from measured impact; specify assumptions and validate the unit of analysis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/investment.svg"
     },
     "es": {
@@ -294,17 +312,17 @@ window.caseStudiesData = {
         "Evaluar tasa mínima aceptable y TIR.",
         "Analizar sensibilidad de supuestos."
       ],
-      "result": "El reporte usa demanda modelada de 4,000 unidades/día y capacidad de 5,000 unidades/día. Son supuestos académicos, no operación real comprobada.",
-      "role": "Participé en la evaluación financiera académica en equipo.",
-      "caveat": "No extrapolar viabilidad sin verificar supuestos y fórmulas.",
+      "result": "Se evaluó una demanda de 4,000 unidades diarias y una capacidad de 5,000 dentro de un caso académico de inversión.",
+      "role": "Participé en la evaluación de inversión y el análisis de sus supuestos con mi equipo.",
+      "caveat": "La decisión depende de los supuestos: demanda, capacidad, costos y tasa de descuento deben analizarse juntos.",
       "images": [
         "investment-capacity.png",
         "bi-method.png",
         "investment-technical.svg"
       ],
       "title": "Evaluación de inversión industrial",
-      "dataset": "Resúmenes del reporte; no se incluyen datos originales.",
-      "lesson": "Separar escenarios modelados de impactos medidos; declarar supuestos y validar la unidad de análisis.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/investment.svg"
     },
     "metadata": {
@@ -327,16 +345,16 @@ window.caseStudiesData = {
         "Flag missing attributes and missing source values separately.",
         "Test duplicate detail rows and key uniqueness."
       ],
-      "result": "The downloadable starter already contains a standalone Python demonstration and tests with synthetic CSV data. This is not released employer code.",
-      "role": "I translate requirements into analytical controls, validate data and collaborate with Operations. This public case uses an independent fictional reconstruction.",
-      "caveat": "Rules, IDs, amounts and source tables in any public repository must be entirely fictional.",
+      "result": "The fictional-data example produces one output per order and flags missing required details without multiplying master records.",
+      "role": "I translate requirements into analytical controls and validate that results preserve the correct grain.",
+      "caveat": "Aggregating before validation avoids duplicated records and makes each exception explainable.",
       "images": [
         "quality-cardinality.png",
         "bi-method.png"
       ],
       "title": "Data Quality Rules Engine",
-      "dataset": "Fictional CSV records are included with the demo.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/quality.svg"
     },
@@ -348,16 +366,16 @@ window.caseStudiesData = {
         "Distinguir faltantes de atributos y campos nulos.",
         "Probar duplicados y unicidad de llaves."
       ],
-      "result": "El paquete incluye una demostración Python independiente con CSV ficticios y pruebas; no es código liberado del empleador.",
-      "role": "Traduzco requerimientos en controles analíticos, valido datos y colaboro con Operaciones. Este caso público utiliza una reconstrucción independiente con datos ficticios.",
-      "caveat": "Reglas, identificadores, importes y tablas públicas deben ser inventados.",
+      "result": "El ejemplo con datos ficticios genera una salida por orden y señala los detalles obligatorios faltantes, sin multiplicar los registros maestros.",
+      "role": "Traduzco requerimientos en controles analíticos y valido que los resultados mantengan la granularidad correcta.",
+      "caveat": "Agregar antes de validar evita duplicar registros y permite explicar cada excepción.",
       "images": [
         "quality-cardinality.png",
         "bi-method.png"
       ],
       "title": "Motor de reglas de calidad de datos",
-      "dataset": "La demo incluye registros CSV ficticios.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/quality.svg"
     },
@@ -389,16 +407,16 @@ window.caseStudiesData = {
         "Classify missing inputs before compatibility checks.",
         "Test nulls, unexpected values and pair-order assumptions."
       ],
-      "result": "Included demo normalizes text and distinguishes OK, Invalid, Missing and Unknown against a fictional reference catalog; unknown values are not silently accepted.",
-      "role": "I present a public reconstruction of validation patterns from my professional experience, using a fictional catalog.",
-      "caveat": "Runnable Python reconstruction using fictional data and rules; does not reproduce an employer system.",
+      "result": "The example distinguishes valid, invalid and unknown combinations, as well as missing inputs.",
+      "role": "I design validations that consider complete combinations, missing values and reference catalogs.",
+      "caveat": "An unknown combination needs an explicit outcome; it should not pass by default.",
       "images": [
         "bi-method.png",
         "compatibility-technical.svg"
       ],
       "title": "Attribute Compatibility Validator",
-      "dataset": "Fictional CSV records are included with the demo.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/compatibility.svg"
     },
@@ -410,16 +428,16 @@ window.caseStudiesData = {
         "Clasificar faltantes antes de comparar pares.",
         "Probar nulos, valores inesperados y orden de atributos."
       ],
-      "result": "La demo incluida normaliza texto y distingue OK, Invalid, Missing y Unknown contra un catálogo ficticio; no acepta silenciosamente valores desconocidos.",
-      "role": "Presento una reconstrucción pública de patrones de validación aplicados en mi experiencia profesional, con un catálogo ficticio.",
-      "caveat": "Reconstrucción ejecutable en Python con datos y reglas ficticios; no reproduce un sistema del empleador.",
+      "result": "El ejemplo distingue combinaciones válidas, inválidas, desconocidas y entradas faltantes.",
+      "role": "Diseño validaciones que consideran combinaciones completas, valores faltantes y catálogos de referencia.",
+      "caveat": "Una combinación desconocida necesita una salida explícita; no debe aprobarse por defecto.",
       "images": [
         "bi-method.png",
         "compatibility-technical.svg"
       ],
       "title": "Validador de compatibilidad de atributos",
-      "dataset": "La demo incluye registros CSV ficticios.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/compatibility.svg"
     },
@@ -443,16 +461,16 @@ window.caseStudiesData = {
         "Test missing mileage and conflicting rules.",
         "Return a single explainable result per order."
       ],
-      "result": "The work included transforming 50,000 orders and classifying them against 50 matrices. No processing duration, accuracy rate or financial impact is claimed. Public illustrations show a conceptual approach, not internal matrix values.",
-      "role": "I participated in the team’s order transformation and classification work. Responsibility by stage is not detailed publicly.",
-      "caveat": "Matrix combinations, precedence and operational rules are private. The scope figures are owner-confirmed; the public demo is independent and does not process the real 50,000 orders.",
+      "result": "We transformed 50,000 orders and classified them against 50 matrices with different combinations. The visuals illustrate the working approach.",
+      "role": "I participated in the team’s order transformation and classification work.",
+      "caveat": "Structuring the matrices makes combinations consistently applicable to a large order volume.",
       "images": [
         "transit-scope.svg",
         "transit-matrix.svg"
       ],
       "title": "Transit-Time Decision Rules",
-      "dataset": "50,000 orders transformed; 50 classification matrices. Real order data and matrices are not distributed.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/transit.svg"
     },
     "es": {
@@ -463,16 +481,16 @@ window.caseStudiesData = {
         "Probar distancias faltantes y reglas en conflicto.",
         "Regresar un resultado explicable por orden."
       ],
-      "result": "Se realizó el trabajo de transformación de 50,000 órdenes y clasificación según 50 matrices. No se atribuyen tiempos de procesamiento, exactitud ni impacto financiero no confirmados. Las imágenes muestran un enfoque conceptual; no valores internos de matrices.",
-      "role": "Participé en la transformación y clasificación de órdenes realizada en equipo. El alcance por etapa no se detalla públicamente.",
-      "caveat": "Combinaciones, precedencias y reglas operativas son privadas. Las cifras de alcance fueron confirmadas por el titular; la demo pública es independiente y no procesa las 50,000 órdenes reales.",
+      "result": "Se transformaron 50,000 órdenes y se clasificaron según 50 matrices con diferentes combinaciones. Las visuales ilustran la lógica de trabajo.",
+      "role": "Participé en la transformación y clasificación de órdenes realizada en equipo.",
+      "caveat": "Estructurar las matrices permite aplicar combinaciones de forma consistente a un gran volumen de órdenes.",
       "images": [
         "transit-scope.svg",
         "transit-matrix.svg"
       ],
       "title": "Reglas de decisión para tiempos de tránsito",
-      "dataset": "50,000 órdenes transformadas; 50 matrices de clasificación. No se distribuyen órdenes ni matrices reales.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/transit.svg"
     },
     "metadata": {
@@ -501,15 +519,15 @@ window.caseStudiesData = {
         "Audit cardinality and check before/after row counts.",
         "Report explainable missing amounts and reconciliation differences."
       ],
-      "result": "The interactive dashboard implements a fictional financial-control example: preaggregate revenue and cost at shipment grain, calculate margin and inspect negative-margin exceptions. This illustrates the method; no realized company savings are claimed.",
-      "role": "I work on operational and financial data controls. I present a fictional example of aggregation and exception monitoring.",
-      "caveat": "Do not publish company financial data, pricing or client-specific tariff rules.",
+      "result": "In the sample dashboard, revenue and costs are aggregated per shipment to calculate margins and identify exceptions using fictional data.",
+      "role": "I work on operational and financial data controls and exception monitoring.",
+      "caveat": "Model grain matters as much as the formula: an incorrect join can distort revenue and costs.",
       "images": [
         "bi-method.png"
       ],
       "title": "Financial Exceptions & KPI Monitoring",
-      "dataset": "No public dataset or executable implementation yet.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/finance.svg"
     },
@@ -521,15 +539,15 @@ window.caseStudiesData = {
         "Auditar cardinalidad y filas antes/después.",
         "Mostrar importes faltantes y diferencias conciliadas."
       ],
-      "result": "El dashboard implementa un ejemplo ficticio de control financiero: preagrega ingresos y costos por envío, calcula margen e inspecciona excepciones con margen negativo. Ilustra el método; no atribuye ahorros reales a una empresa.",
-      "role": "Trabajo en controles de información operativa y financiera. Presento un ejemplo ficticio de agregación y monitoreo de excepciones.",
-      "caveat": "No publicar datos financieros, tarifas o reglas internas.",
+      "result": "En el dashboard de ejemplo, los ingresos y costos se agregan por envío para calcular márgenes e identificar excepciones con datos ficticios.",
+      "role": "Trabajo en controles de información operativa y financiera y en seguimiento de excepciones.",
+      "caveat": "La granularidad del modelo importa tanto como la fórmula: un join incorrecto puede distorsionar ingresos y costos.",
       "images": [
         "bi-method.png"
       ],
       "title": "Monitoreo de excepciones financieras y KPIs",
-      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/finance.svg"
     },
@@ -554,15 +572,15 @@ window.caseStudiesData = {
         "Route alerts and status changes through an automated workflow.",
         "Connect summarized outcomes to operational KPIs."
       ],
-      "result": "The interactive dashboard implements fictional execution logs, success rates and minutes saved. Recorded runs form the success-rate denominator. This is a browser analytics demo, not a deployed Power Automate workflow or the underlying RPA savings initiative.",
-      "role": "I develop automations and analytical process monitoring. The dashboard shows fictional logs; it does not reproduce internal workflows.",
-      "caveat": "Do not publish tenant names, real flows, credentials or company dashboards.",
+      "result": "The sample dashboard shows execution logs, successful runs and time saved using fictional events.",
+      "role": "I develop automations and analytical monitoring to make processes visible.",
+      "caveat": "An automation needs execution and exception traceability to sustain monitoring.",
       "images": [
         "rpa-method.png"
       ],
       "title": "Automated Alerts & Reporting Workflow",
-      "dataset": "No public dataset or executable implementation yet.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/automation.svg"
     },
@@ -574,15 +592,15 @@ window.caseStudiesData = {
         "Canalizar alertas y estados mediante flujo automatizado.",
         "Relacionar resultados con KPIs operativos."
       ],
-      "result": "El dashboard implementa bitácoras ficticias, porcentaje de éxito y minutos ahorrados. Las ejecuciones registradas son el denominador del éxito. Es una demo analítica en navegador; no es un flujo Power Automate desplegado ni la iniciativa de ahorro RPA.",
-      "role": "Desarrollo automatizaciones y seguimiento analítico de procesos. El dashboard muestra bitácoras ficticias; no reproduce flujos internos.",
-      "caveat": "No publicar tenants, flujos internos, credenciales ni dashboards corporativos.",
+      "result": "El dashboard de ejemplo muestra bitácoras, ejecuciones exitosas y tiempo ahorrado con eventos ficticios.",
+      "role": "Desarrollo automatizaciones y seguimiento analítico para dar visibilidad a los procesos.",
+      "caveat": "Una automatización necesita trazabilidad de ejecuciones y excepciones para sostener el seguimiento.",
       "images": [
         "rpa-method.png"
       ],
       "title": "Flujo automatizado de alertas y reportes",
-      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dataset": "",
+      "lesson": "",
       "dashboard_demo": true,
       "cover": "covers/automation.svg"
     },
@@ -606,15 +624,15 @@ window.caseStudiesData = {
         "Measure estimated annualized efficiency benefits.",
         "Document controls, ownership and monitoring for operational continuity."
       ],
-      "result": "€13,452 reported total annual savings across RPA initiatives, per CV and owner clarification. No initiative-level allocation or independently audited calculation is available.",
-      "role": "I participated in RPA initiatives with reported aggregate annual savings. A contribution breakdown by initiative is not published.",
-      "caveat": "Do not imply multiple independently verified RPA projects or disclose confidential workflows.",
+      "result": "The RPA initiatives generated reported aggregate annual savings of €13,452.",
+      "role": "I participated in RPA initiatives to reduce recurring manual work.",
+      "caveat": "Automating repetitive tasks frees time; measuring frequency and time per execution helps evaluate the benefit.",
       "images": [
         "rpa-method.png"
       ],
       "title": "RPA Efficiency & Annual Savings",
-      "dataset": "No public dataset or executable implementation yet.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/rpa-savings.svg"
     },
     "es": {
@@ -625,15 +643,15 @@ window.caseStudiesData = {
         "Cuantificar beneficios anualizados estimados.",
         "Documentar controles, responsables y monitoreo."
       ],
-      "result": "€13,452 de ahorro anual total reportado entre las iniciativas RPA, según CV y aclaración del titular. No existe desglose por iniciativa ni cálculo auditado disponible.",
-      "role": "Participé en iniciativas RPA con ahorro anual agregado reportado. No se publica un desglose de contribuciones por iniciativa.",
-      "caveat": "No insinuar múltiples proyectos auditados ni revelar flujos internos.",
+      "result": "Las iniciativas RPA generaron un ahorro anual agregado reportado de €13,452.",
+      "role": "Participé en iniciativas de automatización RPA para reducir trabajo manual recurrente.",
+      "caveat": "Automatizar tareas repetitivas libera tiempo; medir frecuencia y tiempo por ejecución ayuda a evaluar el beneficio.",
       "images": [
         "rpa-method.png"
       ],
       "title": "Automatización RPA y ahorros anuales",
-      "dataset": "Sin dataset público ni implementación ejecutable todavía.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dataset": "",
+      "lesson": "",
       "cover": "covers/rpa-savings.svg"
     },
     "metadata": {
