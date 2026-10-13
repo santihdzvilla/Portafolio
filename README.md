@@ -1,4 +1,4 @@
-# Santiago Hernández Villa — Portfolio v2.5
+# Santiago Hernández Villa — Portfolio v2.6
 
 Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
@@ -38,3 +38,7 @@ Visit `index.html#dashboard`. Four interactive views, normalized synthetic SQLit
 ## Day / night
 
 Use the topbar Day/Night button beside the language switch. Preference is stored locally and shared between home and full cases. Default: day. Both palettes include matching technical visuals.
+
+## CV downloads
+
+Supplied EN/ES PDFs are included unchanged in `assets/cv/`. Hero and contact downloads follow the selected language. Original PDFs include owner-provided professional contact details.

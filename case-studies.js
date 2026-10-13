@@ -316,7 +316,7 @@ window.caseStudiesData = {
         "Test duplicate detail rows and key uniqueness."
       ],
       "result": "The downloadable starter already contains a standalone Python demonstration and tests with synthetic CSV data. This is not released employer code.",
-      "role": "Professional skill reconstructed as a privacy-safe independent demonstration.",
+      "role": "Professional experience: translate requirements into analytical controls, validate data and collaborate with Operations. Public case: independent fictional reconstruction; individual client-level scope is not disclosed.",
       "caveat": "Rules, IDs, amounts and source tables in any public repository must be entirely fictional.",
       "images": [
         "quality-cardinality.png",
@@ -336,7 +336,7 @@ window.caseStudiesData = {
         "Probar duplicados y unicidad de llaves."
       ],
       "result": "El paquete incluye una demostración Python independiente con CSV ficticios y pruebas; no es código liberado del empleador.",
-      "role": "Habilidad profesional reconstruida como demostración pública segura.",
+      "role": "Experiencia profesional: traducir requerimientos en controles analíticos, validar datos y colaborar con Operaciones. Caso público: reconstrucción ficticia independiente; no se revela alcance por cliente.",
       "caveat": "Reglas, identificadores, importes y tablas públicas deben ser inventados.",
       "images": [
         "quality-cardinality.png",
@@ -527,15 +527,16 @@ window.caseStudiesData = {
         "Audit cardinality and check before/after row counts.",
         "Report explainable missing amounts and reconciliation differences."
       ],
-      "result": "Conceptual public case; no disclosed actual financial savings.",
-      "role": "Privacy-safe reconstruction of BI financial controls.",
+      "result": "The interactive dashboard implements a fictional financial-control example: preaggregate revenue and cost at shipment grain, calculate margin and inspect negative-margin exceptions. This illustrates the method; no realized company savings are claimed.",
+      "role": "Professional experience: translate requirements into analytical controls, validate data and collaborate with Operations. Public case: independent fictional reconstruction; individual client-level scope is not disclosed.",
       "caveat": "Do not publish company financial data, pricing or client-specific tariff rules.",
       "images": [
         "bi-method.png"
       ],
       "title": "Financial Exceptions & KPI Monitoring",
       "dataset": "No public dataset or executable implementation yet.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dashboard_demo": true
     },
     "es": {
       "context": "Evitar doble conteo financiero al unir tablas con relaciones uno-a-muchos.",
@@ -545,15 +546,16 @@ window.caseStudiesData = {
         "Auditar cardinalidad y filas antes/después.",
         "Mostrar importes faltantes y diferencias conciliadas."
       ],
-      "result": "Caso público conceptual; no se revelan ahorros financieros reales.",
-      "role": "Reconstrucción segura de controles financieros BI.",
+      "result": "El dashboard implementa un ejemplo ficticio de control financiero: preagrega ingresos y costos por envío, calcula margen e inspecciona excepciones con margen negativo. Ilustra el método; no atribuye ahorros reales a una empresa.",
+      "role": "Experiencia profesional: traducir requerimientos en controles analíticos, validar datos y colaborar con Operaciones. Caso público: reconstrucción ficticia independiente; no se revela alcance por cliente.",
       "caveat": "No publicar datos financieros, tarifas o reglas internas.",
       "images": [
         "bi-method.png"
       ],
       "title": "Monitoreo de excepciones financieras y KPIs",
       "dataset": "Sin dataset público ni implementación ejecutable todavía.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dashboard_demo": true
     },
     "metadata": {
       "source": "CV / generic professional problem reconstruction",
@@ -576,15 +578,16 @@ window.caseStudiesData = {
         "Route alerts and status changes through an automated workflow.",
         "Connect summarized outcomes to operational KPIs."
       ],
-      "result": "The CV documents Power Automate experience. No independently verified public implementation screenshots are included.",
-      "role": "Professional experience described in CV; illustration is an independent reconstruction.",
+      "result": "The interactive dashboard implements fictional execution logs, success rates and minutes saved. Recorded runs form the success-rate denominator. This is a browser analytics demo, not a deployed Power Automate workflow or the underlying RPA savings initiative.",
+      "role": "Professional experience: translate requirements into analytical controls, validate data and collaborate with Operations. Public case: independent fictional reconstruction; individual client-level scope is not disclosed.",
       "caveat": "Do not publish tenant names, real flows, credentials or company dashboards.",
       "images": [
         "rpa-method.png"
       ],
       "title": "Automated Alerts & Reporting Workflow",
       "dataset": "No public dataset or executable implementation yet.",
-      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results."
+      "lesson": "Make missing inputs and unknown rules explicit; verify record grain before aggregating results.",
+      "dashboard_demo": true
     },
     "es": {
       "context": "Automatizar monitoreo y reportes para mantener trazabilidad de excepciones.",
@@ -594,15 +597,16 @@ window.caseStudiesData = {
         "Canalizar alertas y estados mediante flujo automatizado.",
         "Relacionar resultados con KPIs operativos."
       ],
-      "result": "El CV documenta experiencia con Power Automate. No se incluyen capturas públicas verificadas de implementación.",
-      "role": "Experiencia profesional declarada; imagen reconstruida de manera independiente.",
+      "result": "El dashboard implementa bitácoras ficticias, porcentaje de éxito y minutos ahorrados. Las ejecuciones registradas son el denominador del éxito. Es una demo analítica en navegador; no es un flujo Power Automate desplegado ni la iniciativa de ahorro RPA.",
+      "role": "Experiencia profesional: traducir requerimientos en controles analíticos, validar datos y colaborar con Operaciones. Caso público: reconstrucción ficticia independiente; no se revela alcance por cliente.",
       "caveat": "No publicar tenants, flujos internos, credenciales ni dashboards corporativos.",
       "images": [
         "rpa-method.png"
       ],
       "title": "Flujo automatizado de alertas y reportes",
       "dataset": "Sin dataset público ni implementación ejecutable todavía.",
-      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados."
+      "lesson": "Explicitar entradas faltantes y reglas desconocidas; verificar granularidad antes de agregar resultados.",
+      "dashboard_demo": true
     },
     "metadata": {
       "source": "CV / generic professional problem reconstruction",

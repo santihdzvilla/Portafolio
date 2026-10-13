@@ -24,3 +24,7 @@ Changed portfolio, full case pages, dialogs, dashboard and technical illustratio
 ## v2.5 — Day/night switch
 
 Added bilingual topbar theme control, persistent preference, and theme support on home, dashboard, full cases, dialogs and technical images. Day is default until a preference is saved. Night restores the original v2.3 dark palette.
+
+## v2.6 — Recruiter-focused presentation
+
+Added exact supplied EN/ES CV PDFs and language-dependent hero/contact downloads. Prioritized quality, finance and automation case cards. Added evidence-based career scope explanations without inventing per-client results. Linked implemented dashboard examples from finance/automation cases, distinct from planned full workflow releases. Static and simulated interaction checks passed; browser visual QA unavailable. GitHub publication pending profile/repository URL.
