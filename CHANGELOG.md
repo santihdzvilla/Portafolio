@@ -12,3 +12,7 @@
 ## v2.2
 
 Added owner-confirmed professional scope in EN/ES: more than 10 multinational clients, datasets exceeding 5 million records, and more than 45 control points. Homepage metrics and BI experience updated. No client names or private datasets disclosed.
+
+## v2.3 — Interactive operations dashboard
+
+Added bilingual 4-view dashboard with working filters, computed KPIs, weekly SVG charts, exception drilldown, CSV export and SQLite download. Synthetic normalized database and browser snapshot generated reproducibly from 2,400 shipments and 12 fictional clients. Includes eight generic control rules and financial/cardinality tests. Actual professional scale and reported RPA savings are separate from this demo. Browser layout QA remains pending.

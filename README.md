@@ -1,4 +1,4 @@
-# Santiago Hernández Villa — Portfolio v2.2
+# Santiago Hernández Villa — Portfolio v2.3
 
 Bilingual static portfolio for GitHub Pages. Original supplied portrait preserved. No build or private dependencies.
 
@@ -30,3 +30,7 @@ Coppel poster displays 94 / 122.5 / 135.8 M. The base-to-final change calculates
 ## Español
 
 Portafolio estático bilingüe. `cases.json` centraliza contenido y evidencia. Incluye tres demos independientes con datos ficticios y pruebas. Publicación, permisos de marcas, contribuciones individuales y desglose de ahorros pendientes de confirmación. Los originales privados no se incluyen en el ZIP.
+
+## Interactive dashboard
+
+Visit `index.html#dashboard`. Four interactive views, normalized synthetic SQLite source, 2,400 fictional shipments, filterable charts/KPIs, record inspection and CSV export. See `dashboard/README.md` for data pipeline, definitions and limitations.
